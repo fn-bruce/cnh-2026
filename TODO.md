@@ -1,5 +1,18 @@
 # TODO
 
+## Design and plan the project
+
+Theme: build something that makes tech conferences better. No specific app is assigned.
+
+- [ ] Pick the idea. It must fit the theme and be buildable today.
+- [ ] Decide which tracks to enter. Each one needs real use of its sponsor's tool:
+  - Find the Right Talk (Elasticsearch): search as the core data layer (keyword, vector or hybrid).
+  - Conferences for Everyone (Merge Forward): makes conferences more inclusive and accessible (iPad).
+  - AI SRE (Radar): app on the kind cluster, real issue investigated with Radar.
+  - Stop Flying Blind (Dash0): deep OpenTelemetry, real issue found with Agent0/MCP.
+  - Never Merge Broken (Sonar/Gitar): features land via Gitar-reviewed PRs.
+- [ ] Sketch the architecture and pick the stack. This unblocks `code-style.md` and `testing.md` below.
+
 ## Define specs for `.claude/rules/` files
 
 Go over what each rule file should contain, then create it. `commits.md` (Conventional Commits) is done.
