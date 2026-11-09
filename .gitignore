@@ -1,0 +1,10 @@
+# Secrets — never commit (Radar rhc_/rhp_, Dash0, OpenAI tokens)
+.env
+.env.*
+!.env.example
+.mcp.json
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
